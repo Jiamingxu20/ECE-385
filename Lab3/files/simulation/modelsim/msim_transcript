@@ -1,0 +1,136 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv 
+# -- Compiling module router
+# 
+# Top level modules:
+# 	router
+# End time: 21:00:42 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv 
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+# End time: 21:00:42 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv 
+# -- Compiling module full_adder_1bit
+# 
+# Top level modules:
+# 	full_adder_1bit
+# End time: 21:00:42 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv 
+# -- Compiling module select_adder
+# 
+# Top level modules:
+# 	select_adder
+# End time: 21:00:42 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv 
+# -- Compiling module reg_17
+# 
+# Top level modules:
+# 	reg_17
+# End time: 21:00:42 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:42 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 21:00:43 on Sep 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:43 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 21:00:43 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:43 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 21:00:43 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:43 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv 
+# -- Compiling module adder2
+# 
+# Top level modules:
+# 	adder2
+# End time: 21:00:43 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20 {D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:00:43 on Sep 26,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20" D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv 
+# -- Compiling module testbench_lab3
+# 
+# Top level modules:
+# 	testbench_lab3
+# End time: 21:00:43 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench_lab3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench_lab3 
+# Start time: 21:00:43 on Sep 26,2022
+# Loading sv_std.std
+# Loading work.testbench_lab3
+# ** Error: (vsim-3033) D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv(13): Instantiation of 'lookahead_adder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_lab3 File: D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             D:/ECE385/lab3/files/simulation/modelsim/rtl_work
+#             D:/ECE385/lab3/files/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab3_run_msim_rtl_verilog.do PAUSED at line 20
+# End time: 21:03:38 on Sep 26,2022, Elapsed time: 0:02:55
+# Errors: 1, Warnings: 0

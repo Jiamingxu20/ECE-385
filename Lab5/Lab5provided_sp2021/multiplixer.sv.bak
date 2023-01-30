@@ -1,0 +1,165 @@
+// Tristate buffers
+module multiplixer_buffer (
+    input logic  Clk, 
+    input logic  [15:0] GatePC_in, GateMDR_in, GateALU_in, GateMARMUX_in,
+    input logic  GatePC, GateMDR, GateALU, GateMARMUX,
+    output logic [15:0] out
+);
+always_comb
+begin
+	if (GatePC == 1'b1) 
+        out = GatePC_in;
+    else if (GateMDR == 1'b1)
+        out = GateMDR_in;
+    else if (GateALU == 1'b1)
+        out = GateALU_in;
+    else if (GateMARMUX == 1'b1)
+        out = GateMARMUX_in;
+    else 
+        out = 16'bxxxxxxxxxxxxxxxx;
+end
+endmodule
+
+// PC MUX
+module PCMUX (
+    input logic  Clk, 
+    input logic  [1:0]  Select,
+    input logic  [15:0] A, B, C,
+    output logic [15:0] out
+);
+always_comb
+begin
+	if (Select == 2'b00) 
+        out = A;
+    else if (Select == 2'b01)
+        out = B;
+    else if (Select == 2'b10)
+        out = C;
+    else 
+        out = 16'bxxxxxxxxxxxxxxxx;
+end
+endmodule
+
+module MIOMUX (
+    input  logic  Clk, Select,
+    input  logic  [15:0] A, B,
+    output logic  [15:0] out
+);
+always_comb
+begin
+	if (Select == 1'b1) 
+        out = A;
+    else 
+        out = B;
+end
+endmodule
+
+
+// 2 to 1 mux
+module SR2MUX (
+    input  logic Clk,
+    input  logic [15:0] SR2OUT, IR,
+    output logic [15:0] SR2MUX_out
+);
+logic [15:0] IR_SEXT;
+logic Select;
+assign Select = IR[5];
+assign IR_SEXT = { 11{IR[4]}, IR[4:0] };
+always_comb
+begin
+	if (Select == 1'b1) 
+        SR2MUX_out = IR_SEXT;
+    else 
+        SR2MUX_out = SR2OUT;
+end
+endmodule
+
+
+module SR1MUX (
+    input logic [15:0] IR,
+    input logic SR1MUX,
+    output logic [2:0] out
+);
+always_comb
+begin
+    if (SR1MUX == 1'b1) 
+        out = IR[11:9];
+    else 
+        out = IR[8:6];
+end
+endmodule
+
+
+module DRMUX (
+    input logic [15:0] IR, 
+    input logic DRMUX,
+    output logic [2:0] DRMUX_out
+);
+always_comb
+begin
+    if (DRMUX == 1'b1)
+        DRMUX_out = 3'b111;
+    else
+        DRMUX_out = IR[11:9];
+end
+endmodule
+
+
+
+module ALU (
+    input logic [15:0] A, B,
+    input logic [1:0] ALUK,
+    output logic [15:0] ALU_out
+);
+always_comb
+begin
+    if (ALUK == 2'b00)
+        ALU_out = A + B;
+    else if (ALUK == 2'b01)
+        ALU_out = A && B;
+    else if (ALUK == 2'b10)
+        ALU_out = ~A;
+    else
+        ALU_out = A;
+end
+endmodule
+
+
+module ADDR1MUX (
+    input logic [15:0] PC, SR1,
+    input logic ADDR1MUX,
+    output logic [15:0] ADDR1MUX_out
+);
+always_comb
+begin
+    if (ADDR1MUX == 0)
+        ADDR1MUX_out = PC;
+    else
+        ADDR1MUX_out = SR1;
+end
+endmodule
+
+module ADDR2MUX (
+    input logic [1:0] ADDR2MUX,
+    input logic [15:0] IR,
+    output logic [15:0] ADDR2MUX_out
+);    
+logic [15:0] a, b, c, d;
+assign a = 16'h0000;
+assign b = { 10{IR[5]}, IR[5:0] };
+assign c = { 7{IR[8]}, IR[8:0] };
+assign d = { 5{IR[10]}, IR[10:0] }
+always_comb
+begin
+    if (ADDR2MUX == 2b'00)
+        ADDR2MUX_out = a;
+    else if (ADDR2MUX == 2b'01)
+        ADDR2MUX_out = b;
+    else if (ADDR2MUX == 2b'10)
+        ADDR2MUX_out = c;
+    else
+        ADDR2MUX_out = d;
+end
+endmodule
+
+

@@ -1,0 +1,39 @@
+module nzp (
+	input  logic Load,
+    input  logic [2:0] NZP,
+    input  logic [15:0] in, 
+	output logic out
+);
+logic [2:0] nzp;
+assign nzp = 3'b000;
+always_comb 
+begin 
+    if (in < 0)
+        nzp[2] = 1;
+    else if (in == 0)
+        nzp[1] = 1;
+    else
+        nzp[0] = 1;
+end 
+always_comb
+begin
+    if (Load && nzp == NZP)
+        out = 1'b1;
+    else
+        out = 1'b0;
+end
+endmodule
+
+module ben (
+	input  logic Load,
+    input  logic in,
+	output logic out
+);
+always_comb 
+begin 
+    if (Load)
+        out = in;
+    else
+        out = 1'b?;
+end 
+endmodule

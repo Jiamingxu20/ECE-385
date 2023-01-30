@@ -1,0 +1,748 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE385/lab5/simulation/modelsim
+vADDR1MUX
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1665974623
+!i10b 1
+!s100 K^;R6NnB`7Z1^KkHX@4K?3
+IP@^jb5<Yz;;`=5K_omGg`3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 multiplixer_sv_unit
+S1
+R0
+Z5 w1665120363
+Z6 8D:/ECE385/lab5/Lab5provided_sp2021/multiplixer.sv
+Z7 FD:/ECE385/lab5/Lab5provided_sp2021/multiplixer.sv
+L0 127
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1665974623.000000
+Z10 !s107 D:/ECE385/lab5/Lab5provided_sp2021/multiplixer.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/multiplixer.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+D:/ECE385/lab5/Lab5provided_sp2021
+Z14 tCvgOpt 0
+n@a@d@d@r1@m@u@x
+vADDR2MUX
+R1
+R2
+!i10b 1
+!s100 P>B1?jcgLG;N_9THbAb]02
+ITilhehik0j=24]Fk69Fbd1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 142
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@a@d@d@r2@m@u@x
+vALU
+R1
+R2
+!i10b 1
+!s100 EDIMW?X>[YFMnCcZ3PLMZ1
+I=Sb9oSIALZzfj3V2og4gU0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 108
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@a@l@u
+vben
+R1
+R2
+!i10b 1
+!s100 TK=?lCRdR2QPm<jV>?_gI0
+I3;Rj3Q733<TCQAe11d7nm0
+R3
+Z15 !s105 nzp26ben_sv_unit
+S1
+R0
+Z16 w1665124161
+Z17 8D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv
+Z18 FD:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv
+L0 43
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv|
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 QEc@VMVno89;]XJ=Rfz`01
+IHc>`8?IeXZa]hJYE0kF]F2
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1665122501
+8D:/ECE385/lab5/Lab5provided_sp2021/datapath.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/datapath.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/datapath.sv|
+!i113 1
+R12
+R13
+R14
+vDRMUX
+R1
+R2
+!i10b 1
+!s100 ^12oE0Ec]:e0d3i^WJ]e51
+I38<j3ez_QoRE<D=l?z`]P3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+Z21 L0 92
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@r@m@u@x
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+ITU_bzDl9ZCW8CcJocYLei0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1664506430
+8D:/ECE385/lab5/Lab5provided_sp2021/HexDriver.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vISDU
+R1
+R2
+!i10b 1
+!s100 bSA3I`7VW<LkM<TNC`JS01
+I;3gHj8[Wcm`^AFz6Ah5FP2
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1665115988
+8D:/ECE385/lab5/Lab5provided_sp2021/ISDU.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/ISDU.sv
+L0 19
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/ISDU.sv|
+!i113 1
+R12
+R13
+R14
+n@i@s@d@u
+vled
+R1
+Z22 !s110 1665974622
+!i10b 1
+!s100 Z_]WMI075VoSbl_7Ed]m51
+Ig2;BmZhBG4^oAZGdOOMG53
+R3
+Z23 !s105 PC26MDR26MAR26IR_sv_unit
+S1
+R0
+Z24 w1665108124
+Z25 8D:/ECE385/lab5/Lab5provided_sp2021/PC&MDR&MAR&IR.sv
+Z26 FD:/ECE385/lab5/Lab5provided_sp2021/PC&MDR&MAR&IR.sv
+Z27 L0 16
+R8
+r1
+!s85 0
+31
+Z28 !s108 1665974622.000000
+Z29 !s107 D:/ECE385/lab5/Lab5provided_sp2021/PC&MDR&MAR&IR.sv|
+Z30 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/PC&MDR&MAR&IR.sv|
+!i113 1
+R12
+R13
+R14
+vMem2IO
+R1
+R2
+!i10b 1
+!s100 ]Q:NN9GIUgNPLn_MG6U5k1
+I=<a10I]V[_RWEiT9LAMo31
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+w1591652656
+8D:/ECE385/lab5/Lab5provided_sp2021/Mem2IO.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/Mem2IO.sv
+R27
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/Mem2IO.sv|
+!i113 1
+R12
+R13
+R14
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z31 DXx4 work 6 SLC3_2 0 22 d^40k<WWH`AmHzl_Al=3>3
+VNlWKVTH[^8ROUU8fDGC9m3
+r1
+!s85 0
+31
+!i10b 1
+!s100 3HBe^oHDgeVH<TZocfCK[0
+INlWKVTH[^8ROUU8fDGC9m3
+!i103 1
+S1
+R0
+Z32 w1591637472
+Z33 8D:/ECE385/lab5/Lab5provided_sp2021/memory_contents.sv
+Z34 FD:/ECE385/lab5/Lab5provided_sp2021/memory_contents.sv
+R27
+R8
+R9
+Z35 !s107 D:/ECE385/lab5/Lab5provided_sp2021/memory_contents.sv|
+Z36 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/memory_contents.sv|
+!i113 1
+R12
+R13
+R14
+vmemory_parser
+R1
+R31
+DXx4 work 23 memory_contents_sv_unit 0 22 NlWKVTH[^8ROUU8fDGC9m3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 o:B0TTcXZa[?Oo3HFa9T;0
+Ie1FDjT4f62mdQI;WlSnM83
+!s105 memory_contents_sv_unit
+S1
+R0
+R32
+R33
+R34
+L0 18
+R8
+R9
+R35
+R36
+!i113 1
+R12
+R13
+R14
+vMIOMUX
+R1
+R2
+!i10b 1
+!s100 oB;F1[F1c9=EilNlk0Z8H3
+InmeYD?MJ5N^O6l:H_Dle73
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+Z37 L0 42
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@m@i@o@m@u@x
+vmultiplixer_buffer
+R1
+R2
+!i10b 1
+!s100 ^2Ybi4FQHRZ61`9db96Mo0
+I<^Z?Doz>eLbi0meIN]0La2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vnzp
+R1
+R2
+!i10b 1
+!s100 5^SaRz]CN7JQ7_<D^HWTD1
+I>@VWHI[g?nbTQQRm1VK]k2
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vPCMUX
+R1
+R2
+!i10b 1
+!s100 00X[8Ce@26RCR:9<HNAXK2
+Ien`5Ei<V`QFDLz@z:>KSM3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+Z38 L0 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@p@c@m@u@x
+vReg_16
+R1
+R22
+!i10b 1
+!s100 H3?KoAeE]1:kD?A1e3^Qj2
+I7B63WT_PjIBTzFS>>Nc<=1
+R3
+R23
+S1
+R0
+R24
+R25
+R26
+L0 1
+R8
+r1
+!s85 0
+31
+R28
+R29
+R30
+!i113 1
+R12
+R13
+R14
+n@reg_16
+vreg_file
+R1
+R22
+!i10b 1
+!s100 OeKeSb6I4hzjDzf7c_G=72
+IZeJjk7`o2FdzMTfb]im7z3
+R3
+Z39 !s105 REGFILE_sv_unit
+S1
+R0
+Z40 w1665107647
+Z41 8D:/ECE385/lab5/Lab5provided_sp2021/REGFILE.sv
+Z42 FD:/ECE385/lab5/Lab5provided_sp2021/REGFILE.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R28
+Z43 !s107 D:/ECE385/lab5/Lab5provided_sp2021/REGFILE.sv|
+Z44 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/REGFILE.sv|
+!i113 1
+R12
+R13
+R14
+vregister
+R1
+R22
+!i10b 1
+!s100 8@4oR_YH<0^mS?lMMeYDd0
+IK4DKcRM79lE`bNkf3kW8]0
+R3
+R39
+S1
+R0
+R40
+R41
+R42
+R21
+R8
+r1
+!s85 0
+31
+R28
+R43
+R44
+!i113 1
+R12
+R13
+R14
+vslc3
+R1
+R2
+!i10b 1
+!s100 VB7SFO7XoAN2m6oS=TWVh3
+I0XfdzT<bBXJL3:B[AaQZB3
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1665110390
+8D:/ECE385/lab5/Lab5provided_sp2021/slc3.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/slc3.sv
+L0 20
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/slc3.sv|
+!i113 1
+R12
+R13
+R14
+XSLC3_2
+R1
+R2
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+Id^40k<WWH`AmHzl_Al=3>3
+Vd^40k<WWH`AmHzl_Al=3>3
+S1
+R0
+w1506381592
+8D:/ECE385/lab5/Lab5provided_sp2021/SLC3_2.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/SLC3_2.sv
+R38
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/SLC3_2.sv|
+!i113 1
+R12
+R13
+R14
+n@s@l@c3_2
+vslc3_testtop
+R1
+R2
+!i10b 1
+!s100 ^4hhCjYV2aT;kkekDk8a71
+In3j?J7LJeeKn;JldNm`IK3
+R3
+!s105 slc3_testtop_sv_unit
+S1
+R0
+w1664519450
+8D:/ECE385/lab5/Lab5provided_sp2021/slc3_testtop.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/slc3_testtop.sv
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/slc3_testtop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/slc3_testtop.sv|
+!i113 1
+R12
+R13
+R14
+vSR1MUX
+R1
+R2
+!i10b 1
+!s100 :P4He=zd9aNYQLLo^KQ5b2
+IUgB3oLfbCAec0`SDeUzzm1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 57
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@s@r1@m@u@x
+vSR2MUX
+R1
+R2
+!i10b 1
+!s100 7gCPU33nLVcl6QiVh11hZ1
+I_7R==G6fe@B4i`>JhUbH@0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 73
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@s@r2@m@u@x
+vsync
+R1
+R2
+!i10b 1
+!s100 OHNUFN]797>kYzRL;ikZR2
+IzJVYXzRSKFnTgWcjFYEGC3
+R3
+Z45 !s105 synchronizers_sv_unit
+S1
+R0
+Z46 w1591500476
+Z47 8D:/ECE385/lab5/Lab5provided_sp2021/synchronizers.sv
+Z48 FD:/ECE385/lab5/Lab5provided_sp2021/synchronizers.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+Z49 !s107 D:/ECE385/lab5/Lab5provided_sp2021/synchronizers.sv|
+Z50 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/synchronizers.sv|
+!i113 1
+R12
+R13
+R14
+vsync_r0
+R1
+R2
+!i10b 1
+!s100 _Sn:CfHFjznVZen=7jc>C2
+IhbigRZocaRgMo=IKZCgIS3
+R3
+R45
+S1
+R0
+R46
+R47
+R48
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R49
+R50
+!i113 1
+R12
+R13
+R14
+vsync_r1
+R1
+R2
+!i10b 1
+!s100 4jfZd?z`MK2Y<NLFC0<QH2
+IMM=EFd2j3En7AAWF7I[IR0
+R3
+R45
+S1
+R0
+R46
+R47
+R48
+R37
+R8
+r1
+!s85 0
+31
+R9
+R49
+R50
+!i113 1
+R12
+R13
+R14
+vtest_memory
+R1
+R2
+!i10b 1
+!s100 JAXhO?6GV:H>``me>_X5<1
+IZMS4MR56hgSgXf_6aeBL:1
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+w1591648402
+8D:/ECE385/lab5/Lab5provided_sp2021/test_memory.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/test_memory.sv
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/test_memory.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench_lab5
+R1
+R2
+!i10b 1
+!s100 I3J8W;KoJ<i:[oM^AFNGd0
+Ii<BGFICQHH=Sfhb]SND0g3
+R3
+!s105 testbench_lab5_sv_unit
+S1
+R0
+w1665974520
+8D:/ECE385/lab5/Lab5provided_sp2021/testbench_lab5.sv
+FD:/ECE385/lab5/Lab5provided_sp2021/testbench_lab5.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE385/lab5/Lab5provided_sp2021/testbench_lab5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab5/Lab5provided_sp2021|D:/ECE385/lab5/Lab5provided_sp2021/testbench_lab5.sv|
+!i113 1
+R12
+R13
+R14

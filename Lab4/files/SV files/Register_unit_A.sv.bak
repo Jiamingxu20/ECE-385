@@ -1,0 +1,25 @@
+module register_unit_A (input  logic        Clk, Reset, ClearXA, Shift_En,
+                      input  logic        Shift_In, Load
+							 input  logic [7:0]  A_val,
+							 //
+                      output logic        A_out,
+                      output logic [7:0]  A);
+	 
+	 
+	 always_ff @ (posedge Clk)
+    begin
+		  if (Reset | ClearXA) begin
+				X <= 1'b0;
+		  end 
+		  else if (Ld_A) begin
+		      X <= X_In;
+		  end
+    end
+	 
+
+    reg_8  reg_A (.Clk(Clk), .Reset(Reset | ClearXA), .Shift_En(Shift_En), 
+						.Shift_In(Shift_In),  .Load(Load), .Data_in(A_val),
+	               .Shift_Out(A_out), .Data_Out(A));
+
+
+endmodule

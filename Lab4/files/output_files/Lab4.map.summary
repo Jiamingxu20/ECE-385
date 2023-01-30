@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Oct 03 23:15:18 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Lab4
+Top-level Entity Name : Processor
+Family : MAX 10
+Total logic elements : 123
+    Total combinational functions : 115
+    Dedicated logic registers : 46
+Total registers : 46
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

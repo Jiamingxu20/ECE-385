@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Int Divide By Zero",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t 0x6f2241f1: QtCore4 + 0x441f1 (?nextNode@QHashData@@SAPEAUNode@1@PEAU21@@Z + 0x11)\n\t 0x6e478854: QtGui4 + 0x28854 (?textInterface@QAccessibleInterface@@QEAAPEAVQAccessibleTextInterface@@XZ + 0xb4)\n\t 0x6e46b024: QtGui4 + 0x1b024 (?allWidgets@QApplication@@SA?AV?$QList@PEAVQWidget@@@@XZ + 0x24)\n\t 0x6e4788cb: QtGui4 + 0x288cb (?topLevelWidgets@QApplication@@SA?AV?$QList@PEAVQWidget@@@@XZ + 0x4b)\n\t 0x6e4ae2ff: QtGui4 + 0x5e2ff (?close_helper@QWidgetPrivate@@QEAA_NW4CloseMode@1@@Z + 0x14f)\n\t0x7ffb39952911: mega_ipcatviewq + 0x2911 (?on_ip_view_closed@IPCATVIEWQ_FRAME_WND@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z + 0x1b1)\n\t0x7ffb3c6ab330: mega_ipcatalog + 0x1b330 (?close_view@IPCATALOG_IP_VIEW_BASE@@UEAA_NXZ + 0x30)\n\t0x7ffb3c6bb306: mega_ipcatalog + 0x2b306 (?process_exit_data@IPCATALOG_LEGACY_IP_VIEW@@MEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@K@Z + 0x226)\n\t0x7ffb3c6b9d1a: mega_ipcatalog + 0x29d1a (?on_process_exit@IPCATALOG_PROC_HANDLER@@UEAAXW4STATUS@IPC_COMMAND@@K@Z + 0x5a)\n\t0x7ffbd0a398a5: mega_ipqx + 0x198a5 (?ipqx_proc_thread_func@@YAPEAXPEAX@Z + 0x1c5)\n\t0x7ffbcb1c467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffbcb2c6660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffbcb042791: ccl_thr + 0x2791 (thr_thread_begin + 0xa1)\n\t0x7ffbf568244c: KERNEL32 + 0x1244c (BaseThreadInitThunk + 0x1c)\n\t0x7ffbf63cdfb7: ntdll + 0x5dfb7 (RtlUserThreadStart + 0x27)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Lite Edition"
+	}
+}

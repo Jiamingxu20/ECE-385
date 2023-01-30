@@ -1,0 +1,122 @@
+module datapath (
+	input  logic Clk, Reset, Run, Continue, 
+	input  logic 
+	input  logic LD_MAR, LD_MDR, LD_IR, LD_BEN, LD_CC, LD_REG, LD_PC, LD_LED, // Load control signals
+	input  logic GatePC, GateMDR, GateALU, GateMARMUX, // Gate control signals
+	input  logic SR2MUX, ADDR1MUX, MARMUX,
+	input  logic MIO_EN, DRMUX, SR1MUX,
+	input  logic [1:0] PCMUX, ADDR2MUX, ALUK,
+	input  logic [15:0] MDR_In, 
+	output logic BEN,
+	output logic [15:0] IR, MAR, MDR
+);
+
+logic [15:0] PC_out, PCMUX_out, PC_incrementer_out;
+logic [15:0] BUS; IR_copy, 
+
+assign IR = IR_copy;
+// MUX Block ////////////////////
+multiplixer_buffer multiplixer_buffer_0 (
+	.Clk(Clk),
+	// Inputs to each Gate then to the BUS
+	.GatePC_in(PC_out), .GateMDR_in(MDR), .GateALU_in(ALU_out), .GateMARMUX_in(ADDR_out),
+	// Gate Control Signal: control which gate should be open
+	.GatePC(GatePC), .GateMDR(GateMDR), .GateALU(GateALU), .GateMARMUX(GateMARMUX),
+	// Gate Output: the single output signal come out from 4 gates 
+	.out(BUS)
+);
+
+// PC Block /////////////////////////
+PC PC_0 (
+	.Clk(Clk), .Reset(Reset), .Load(LD_PC),
+	.in(PCMUX_out),
+	.out(PC_out)
+);
+PCMUX PCMUX_0 (
+	.Clk(Clk), .Select(PCMUX),
+	.A(PC_incrementer_out), .B(16'bxxxxxxxxxxxxxxxx), .C(16'bxxxxxxxxxxxxxxxx), // In Week 1, we do not need B and C
+	.out(PCMUX_out)
+);
+PC_incrementer PC_incrementer_0 (
+	.Clk(Clk),
+	.in(PC_out),
+	.out(PC_incrementer_out)
+);
+
+// IR Block //////////////////////////
+IR IR_0 (
+	.Clk(Clk), .Load(LD_IR), .Reset(Reset),
+	.in(BUS),
+	.out(IR_copy)
+);
+
+// MAR & MDR Block ///////////////////
+logic [15:0] MIO_out;
+MAR MAR_0 (
+	.Clk(Clk), .Load(LD_MAR), .Reset(Reset),
+	.in(BUS),
+	.out(MAR)
+);
+MIOMUX MIOMUX_0 (
+	.Clk(Clk), .Select(MIO_EN), 
+	.A(MDR_In), .B(BUS),
+	.out(MIO_out)
+);
+MDR MDR_0 (
+	.Clk(Clk), .Load(LD_MDR), .Reset(Reset),
+	.in(MIO_out),
+	.out(MDR)
+);
+
+// nzp&ben Block /////////////////////////
+logic nzp_out;
+logic ben_out;
+nzp nzp_0 (
+	.Load(LD_CC), .NZP(IR_copy[11:9]), 
+	.in(BUS),
+	.out(nzp_out)
+);
+ben ben_0 (
+	.Load(LD_BEN), 
+	.in(nzp_out),
+	.out(BEN)
+);
+
+// REG_FILE Block ////////////////////////
+logic [2:0] DRMUX_out; 
+logic [15:0] SR1OUT, SR2OUT, SR1MUX_out, SR2MUX_out, ALU_out;
+reg_file reg_file_0 (
+	.Clk(Clk), .Reset(Reset), .bus(BUS), .IR(IR_copy), 
+	.LD(LD_REG), .DRMUX_out(DRMUX_out), .SR1MUX_out(SR1MUX_out),
+	.SR1OUT(SR1OUT), .SR2OUT(SR2OUT)
+);
+DRMUX DRMUX_0 (
+	.IR(IR_copy), .DRMUX(DRMUX), .DRMUX_out(DRMUX_out)
+);
+SR1MUX SR1MUX_0 (
+	.IR(IR_copy), .SR1MUX(SR1MUX), .out(SR1MUX_out)
+);
+SR2MUX SR2MUX_0 (
+	.CLk(Clk), .SR2OUT(SR2OUT), .IR(IR_copy),
+	.SR2MUX_out(SR2MUX_out)
+);
+ALU ALU_0 (
+	.A(SR1OUT), .B(SR2MUX_out), .ALUK(ALUK), 
+	.ALU_out(ALU_out)
+);
+
+// ADDR1MUX & ADDR2MUX Block /////////////
+logic [15:0] ADDR_out, ADDR1MUX_out, ADDR2MUX_out;
+assign ADDR_out = ADDR1MUX_out + ADDR2MUX_out;
+ADDR1MUX ADDR1MUX_0 (
+	.PC(PC_out), .SR1(SR1OUT), .ADDR1MUX(ADDR1MUX),
+	.ADDR1MUX_out(ADDR1MUX_out)
+);
+ADDR2MUX ADDR2MUX_0 (
+	.ADDR2MUX(ADDR2MUX), .IR(IR_copy), 
+	.ADDR2MUX_out = ADDR2MUX_out
+);
+
+
+
+endmodule

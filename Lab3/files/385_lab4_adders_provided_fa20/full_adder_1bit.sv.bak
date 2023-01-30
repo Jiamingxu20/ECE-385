@@ -1,0 +1,32 @@
+module full_adder
+(
+	input  logic [3:0] A, B,
+	input  logic       cin,
+	output logic [3:0] S,
+	output logic       cout
+);
+	  
+	  logic C0, C1, C2, C3, C4;
+	  
+	  always_comb
+	  begin
+	  
+		   C0 = cin;
+		   cout = C4;
+		  
+		   C1 = (A[0]&B[0])|(A[0]&C0)|(B[0]&C0);
+		   S[0] = A[0]^B[0]^C0;
+
+		   C2 = (A[1]&B[1])|(A[1]&C1)|(B[1]&C1);
+		   S[1] = A[1]^B[1]^C1;
+		  
+		   C3 = (A[2]&B[2])|(A[2]&C2)|(B[2]&C2);
+		   S[2] = A[2]^B[2]^C2;
+		  
+		   C4 = (A[3]&B[3])|(A[3]&C3)|(B[3]&C3);
+		   S[3] = A[3]^B[3]^C3;
+		  
+	  end 
+     
+endmodule
+

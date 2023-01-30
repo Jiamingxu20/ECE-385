@@ -1,0 +1,28 @@
+module PC (
+	input  logic Clk, Reset, Load,
+    input  logic [15:0] in,
+	output logic [15:0] out
+);
+always_ff @ (posedge Clk)
+begin
+	if (Reset)
+        out <= 16'h0;
+    else if (Load)
+        out <= in;
+    else 
+        out <= out;
+end
+endmodule
+
+
+
+module PC_incrementer (
+	input  logic Clk, 
+    input  logic [15:0] in,
+	output logic [15:0] out
+);
+always_ff @ (posedge Clk)
+begin
+    out <= in + 1'b1;
+end
+endmodule

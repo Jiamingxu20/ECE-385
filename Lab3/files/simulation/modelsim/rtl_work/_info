@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE385/lab3/files/simulation/modelsim
+vadder2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1664244043
+!i10b 1
+!s100 UW<1FGHXDcAgGAeN]XWMf1
+Ib<:hd?kliV;3H:jX^Qn_12
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder2_sv_unit
+S1
+R0
+w1664243609
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1664244043.000000
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/adder2.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20
+Z8 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 4^T<MW:^Hhf;SGQ2_b=Kk3
+IRV4cz7D4SRUQoHf^Z^=Ja1
+R3
+!s105 control_sv_unit
+S1
+R0
+w1420578784
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/control.sv|
+!i113 1
+R6
+R7
+R8
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 @1UklobfmTR1ian0SzC[00
+InL1zW;O9X6mN_=Ieaea`>1
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+w1663221625
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder.sv|
+!i113 1
+R6
+R7
+R8
+vfull_adder_1bit
+R1
+Z9 !s110 1664244042
+!i10b 1
+!s100 KMHiTofk=SX86@Ogf:`4G1
+IT:CMCRM^kmZbD7[6[H1GE1
+R3
+!s105 full_adder_1bit_sv_unit
+S1
+R0
+w1664226597
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1664244042.000000
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/full_adder_1bit.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+Ij[kHQ8<AV4SSoPz=;GLD?1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1420578704
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vMUX
+R1
+R9
+!i10b 1
+!s100 daz2m>Th7>0B_onPV4eKY1
+IOS<m=i>9CA`N:dD[5IlWC3
+R3
+!s105 mux_sv_unit
+S1
+R0
+w1663223754
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/mux.sv|
+!i113 1
+R6
+R7
+R8
+n@m@u@x
+vreg_17
+R1
+R9
+!i10b 1
+!s100 TzXnY51aIaIZFVKcdA[Wn1
+Id4BD`lklEZf?d`MR8QBk=1
+R3
+!s105 reg_17_sv_unit
+S1
+R0
+w1420577706
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/reg_17.sv|
+!i113 1
+R6
+R7
+R8
+vrouter
+R1
+R9
+!i10b 1
+!s100 0oS5^3aI5<4lR1GZZPnaj2
+INAS>a;eJMAEP6ZiGLMEPK2
+R3
+!s105 router_sv_unit
+S1
+R0
+w1420578752
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/router.sv|
+!i113 1
+R6
+R7
+R8
+vselect_adder
+R1
+R9
+!i10b 1
+!s100 DS^5Dz@3m4M?:gdgldOjM0
+IZ`z6d0h=>LF7DJCDD7MIA1
+R3
+!s105 select_adder_sv_unit
+S1
+R0
+w1663225656
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/select_adder.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench_lab3
+R1
+R2
+!i10b 1
+!s100 XfNEY2J]`jo`o0cgk5AB72
+I2emI`8YY_FgIUXFSZBX713
+R3
+!s105 testbench_lab3_sv_unit
+S1
+R0
+w1664242706
+8D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv
+FD:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/files/385_lab4_adders_provided_fa20|D:/ECE385/lab3/files/385_lab4_adders_provided_fa20/testbench_lab3.sv|
+!i113 1
+R6
+R7
+R8

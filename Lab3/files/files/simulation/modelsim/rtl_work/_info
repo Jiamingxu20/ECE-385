@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE385/lab3/simulation/modelsim
+vfull_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1663225763
+!i10b 1
+!s100 @1UklobfmTR1ian0SzC[00
+ISHU5324FnbndzmGM^zbE]2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 full_adder_sv_unit
+S1
+R0
+w1663221625
+8D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder.sv
+FD:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1663225763.000000
+!s107 D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20|D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20
+Z8 tCvgOpt 0
+vfull_adder_1bit
+R1
+R2
+!i10b 1
+!s100 KMHiTofk=SX86@Ogf:`4G1
+I6]R9R_RY>DnlP;^;a^6j=3
+R3
+!s105 full_adder_1bit_sv_unit
+S1
+R0
+w1663220536
+8D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder_1bit.sv
+FD:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder_1bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder_1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20|D:/ECE385/lab3/385_lab4_adders_provided_fa20/full_adder_1bit.sv|
+!i113 1
+R6
+R7
+R8
+vMUX
+R1
+R2
+!i10b 1
+!s100 daz2m>Th7>0B_onPV4eKY1
+I_?B`ChAFLZEe1WoK43mnf3
+R3
+!s105 mux_sv_unit
+S1
+R0
+w1663223754
+8D:/ECE385/lab3/385_lab4_adders_provided_fa20/mux.sv
+FD:/ECE385/lab3/385_lab4_adders_provided_fa20/mux.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/385_lab4_adders_provided_fa20/mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20|D:/ECE385/lab3/385_lab4_adders_provided_fa20/mux.sv|
+!i113 1
+R6
+R7
+R8
+n@m@u@x
+vselect_adder
+R1
+R2
+!i10b 1
+!s100 DS^5Dz@3m4M?:gdgldOjM0
+IinX;?lYDdf6LOIC0;OKGi1
+R3
+!s105 select_adder_sv_unit
+S1
+R0
+w1663225656
+8D:/ECE385/lab3/385_lab4_adders_provided_fa20/select_adder.sv
+FD:/ECE385/lab3/385_lab4_adders_provided_fa20/select_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/385_lab4_adders_provided_fa20/select_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20|D:/ECE385/lab3/385_lab4_adders_provided_fa20/select_adder.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench_lab3
+R1
+R2
+!i10b 1
+!s100 IQgT@@U=XCbF_E64k:bfh2
+IQOl?ze;CNdOLmb13:P]5l0
+R3
+!s105 testbench_lab3_sv_unit
+S1
+R0
+w1663225747
+8D:/ECE385/lab3/385_lab4_adders_provided_fa20/testbench_lab3.sv
+FD:/ECE385/lab3/385_lab4_adders_provided_fa20/testbench_lab3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab3/385_lab4_adders_provided_fa20/testbench_lab3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab3/385_lab4_adders_provided_fa20|D:/ECE385/lab3/385_lab4_adders_provided_fa20/testbench_lab3.sv|
+!i113 1
+R6
+R7
+R8

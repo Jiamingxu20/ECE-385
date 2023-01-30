@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="446" />
+   <description preferredWidth="416" />
+   <inputclock preferredWidth="160" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Project,Project/ECE 385 Custom IPs,Library" />
+ <window width="2527" height="1495" x="366" y="243" />
+</preferences>

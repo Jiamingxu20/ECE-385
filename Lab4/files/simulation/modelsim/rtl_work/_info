@@ -1,0 +1,340 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE385/lab4/files/simulation/modelsim
+vaddandsub_unit
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1664761608
+!i10b 1
+!s100 X8IMZJf[?=9_IPn:G8]P72
+IOBkoYmRD^7:0DHlFzbSNc1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 addandsub_unit_sv_unit
+S1
+R0
+w1664755425
+8D:/ECE385/lab4/files/SV files/addandsub_unit.sv
+FD:/ECE385/lab4/files/SV files/addandsub_unit.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1664761608.000000
+!s107 D:/ECE385/lab4/files/SV files/addandsub_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/addandsub_unit.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+D:/ECE385/lab4/files/SV files}
+Z8 tCvgOpt 0
+vcontrol_unit
+R1
+R2
+!i10b 1
+!s100 mD5BdB0c`:J9XQk?>D:SE2
+IzBkMcW<=RoSS4BKMZQM;_2
+R3
+!s105 Control_unit_sv_unit
+S1
+R0
+w1664753893
+8D:/ECE385/lab4/files/SV files/Control_unit.sv
+FD:/ECE385/lab4/files/SV files/Control_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab4/files/SV files/Control_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Control_unit.sv|
+!i113 1
+R6
+R7
+R8
+vfull_adder_1bit
+R1
+R2
+!i10b 1
+!s100 Jc`iC4c[@m_=UIJWBL>QX2
+IGRE3V=@zLBzZ3SacUn@8@0
+R3
+Z9 !s105 full_adder_9bit_sv_unit
+S1
+R0
+Z10 w1664749216
+Z11 8D:/ECE385/lab4/files/SV files/full_adder_9bit.sv
+Z12 FD:/ECE385/lab4/files/SV files/full_adder_9bit.sv
+L0 40
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 D:/ECE385/lab4/files/SV files/full_adder_9bit.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/full_adder_9bit.sv|
+!i113 1
+R6
+R7
+R8
+vfull_adder_9bit
+R1
+R2
+!i10b 1
+!s100 f_`ITS@6@eMYo^CHheD?13
+IQai1hPLJgM9NL;J]C?e:;2
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IeeI==lbT1YbP92b862oXI0
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1612570584
+8D:/ECE385/lab4/files/SV files/HexDriver.sv
+FD:/ECE385/lab4/files/SV files/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab4/files/SV files/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vProcessor
+R1
+Z15 !s110 1664761609
+!i10b 1
+!s100 dYPPPR?L=<67m@[Wi^O3j3
+IFST4C?]oFgMbzk11fUJc82
+R3
+!s105 Processor_sv_unit
+S1
+R0
+w1664754377
+8D:/ECE385/lab4/files/SV files/Processor.sv
+FD:/ECE385/lab4/files/SV files/Processor.sv
+L0 3
+R4
+r1
+!s85 0
+31
+Z16 !s108 1664761609.000000
+!s107 D:/ECE385/lab4/files/SV files/Processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Processor.sv|
+!i113 1
+R6
+R7
+R8
+n@processor
+vregister_unit_A
+R1
+R2
+!i10b 1
+!s100 _`UX6eF0jF1io;GQ=>SI63
+IHcJg?1452IO>9_nDMVba^1
+R3
+!s105 Register_unit_A_sv_unit
+S1
+R0
+w1664749288
+8D:/ECE385/lab4/files/SV files/Register_unit_A.sv
+FD:/ECE385/lab4/files/SV files/Register_unit_A.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab4/files/SV files/Register_unit_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Register_unit_A.sv|
+!i113 1
+R6
+R7
+R8
+nregister_unit_@a
+vregister_unit_B
+R1
+R2
+!i10b 1
+!s100 eoEh:ZMi3Gz4^eTD[5X8A0
+IPjBTHGJX<VL]Jm;0`;<6I1
+R3
+!s105 Register_unit_B_sv_unit
+S1
+R0
+w1663940788
+8D:/ECE385/lab4/files/SV files/Register_unit_B.sv
+FD:/ECE385/lab4/files/SV files/Register_unit_B.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab4/files/SV files/Register_unit_B.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Register_unit_B.sv|
+!i113 1
+R6
+R7
+R8
+nregister_unit_@b
+vregister_unit_X
+R1
+R2
+!i10b 1
+!s100 lDI7Oll8mAMMVjG`Vg6fK0
+IVGaNAZVBI>FZ9LV6CB8Hk1
+R3
+!s105 Register_unit_X_sv_unit
+S1
+R0
+w1664691651
+8D:/ECE385/lab4/files/SV files/Register_unit_X.sv
+FD:/ECE385/lab4/files/SV files/Register_unit_X.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ECE385/lab4/files/SV files/Register_unit_X.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Register_unit_X.sv|
+!i113 1
+R6
+R7
+R8
+nregister_unit_@x
+vsync
+R1
+R2
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+I01G97WkUbNQQX:Rn`QWg_0
+R3
+Z17 !s105 Synchronizers_sv_unit
+S1
+R0
+Z18 w1663814318
+Z19 8D:/ECE385/lab4/files/SV files/Synchronizers.sv
+Z20 FD:/ECE385/lab4/files/SV files/Synchronizers.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+Z21 !s107 D:/ECE385/lab4/files/SV files/Synchronizers.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/Synchronizers.sv|
+!i113 1
+R6
+R7
+R8
+vsync_r0
+R1
+R2
+!i10b 1
+!s100 1HhhAWiOJ>^4m@Pf`Pf?o2
+IN;:LkZDK37?bf014AXP873
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+R8
+vsync_r1
+R1
+R2
+!i10b 1
+!s100 C]8jcYo;mnFgQcQgF6bS20
+IV`dH<EJ5BfaYX44:mO2SN2
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 46
+R4
+r1
+!s85 0
+31
+R5
+R21
+R22
+!i113 1
+R6
+R7
+R8
+vtestbench_lab4
+R1
+R15
+!i10b 1
+!s100 V:fBbG<[<8@l3JNjl4h?12
+Ico<VR<e@NAT46?Fod85m01
+R3
+!s105 testbench_lab4_sv_unit
+S1
+R0
+w1664756737
+8D:/ECE385/lab4/files/SV files/testbench_lab4.sv
+FD:/ECE385/lab4/files/SV files/testbench_lab4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R16
+!s107 D:/ECE385/lab4/files/SV files/testbench_lab4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE385/lab4/files/SV files|D:/ECE385/lab4/files/SV files/testbench_lab4.sv|
+!i113 1
+R6
+R7
+R8

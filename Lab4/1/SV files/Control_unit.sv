@@ -1,0 +1,75 @@
+module control_unit (input  logic Clk, Reset, Run,
+                     output logic Shift_En, Ld_B, Ld_S, Clear_XA, Itsthetime);
+
+    enum logic [3:0] {A, B, C, D, E, F, G, H, I, J}   curr_state, next_state; 
+	 
+
+	//updates flip flop, current state is the only one
+    always_ff @ (posedge Clk)  
+    begin
+        if (Reset)
+            curr_state <= A;
+        else 
+            curr_state <= next_state;
+    end
+
+    // Assign outputs based on state
+	always_comb
+    begin
+        
+		  next_state  = curr_state;	//required because I haven't enumerated all possibilities below
+        unique case (curr_state) 
+
+            A :    if (Run)
+                       next_state = B;
+            B :    next_state = C;
+            C :    next_state = D;
+            D :    next_state = E;
+            E :    next_state = F;
+				F :    next_state = G;
+				G :    next_state = H;
+				H :    next_state = I;
+				I :    next_state = J;
+            J :    if (~Run) 
+                       next_state = A;
+							  
+        endcase
+   
+		  // Assign outputs based on ‘state’
+        case (curr_state) 
+	   	   A: // Rest state: Clear X&A and Load B
+	         begin
+                Ld_B = 1'h1;
+					 Ld_S = 1'h0;
+                Shift_En = 1'h0;
+					 Clear_XA = 1'h1;
+					 Itsthetime = 1'h0;
+		      end
+				B: // Run state: Load S
+	         begin
+				    Ld_B = 1'h0;
+                Ld_S = 1'h1;
+                Shift_En = 1'b0;
+					 Clear_XA = 1'b1;
+					 Itsthetime = 1'b0;
+		      end
+	   	   J: // End state: do nothing
+		      begin
+                Ld_B = 1'b0;
+                Ld_S = 1'b0;
+                Shift_En = 1'h1;
+					 Clear_XA = 1'b0;
+					 Itsthetime = 1'b1;
+		      end
+	   	   default:  // Default case, can also have default assignments for Ld_A and Ld_B before case
+		      begin 
+                Ld_B = 1'b0;
+                Ld_S = 1'b0;
+                Shift_En = 1'b1;
+					 Clear_XA = 1'b0;
+					 Itsthetime = 1'b0;
+		      end
+        endcase
+    end
+
+endmodule

@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at nzp&ben.sv(8): object "n" differs only in case from object "N" in the same scope File: D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv Line: 8
+Info (10281): Verilog HDL Declaration information at nzp&ben.sv(8): object "z" differs only in case from object "Z" in the same scope File: D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv Line: 8
+Info (10281): Verilog HDL Declaration information at nzp&ben.sv(8): object "p" differs only in case from object "P" in the same scope File: D:/ECE385/lab5/Lab5provided_sp2021/nzp&ben.sv Line: 8
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Run" differs only in case from object "RUN" in the same scope File: D:/ECE385/lab5/Lab5provided_sp2021/slc3_sramtop.sv Line: 7
+Info (10281): Verilog HDL Declaration information at slc3_sramtop.sv(7): object "Continue" differs only in case from object "CONTINUE" in the same scope File: D:/ECE385/lab5/Lab5provided_sp2021/slc3_sramtop.sv Line: 7
+Warning (10273): Verilog HDL warning at HexDriver.sv(24): extended using "x" or "z" File: D:/ECE385/lab5/Lab5provided_sp2021/HexDriver.sv Line: 24
+Warning (10268): Verilog HDL information at datapath.sv(23): always construct contains both blocking and non-blocking assignments File: D:/ECE385/lab5/Lab5provided_sp2021/datapath.sv Line: 23
