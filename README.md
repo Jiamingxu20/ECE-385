@@ -1,1 +1,3 @@
-ECE 385 by Jiaming Xu with Gong Rui
+###### ECE 385
+
+By Jiaming Xu with Gong Rui
