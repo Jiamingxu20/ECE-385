@@ -18,11 +18,11 @@ We re-create the classic tank battle game, Batlle City, into a PvP version on FP
 
 ### How to run
 
-* Pull the whole project
-* Connect your computer to a FPGA board and specify in Quartus
-* Compile the project in Quartus and program the device
-* Connect your FPGA board to a monitor via VGA
-* Compile and run the C code in Eclipse
+* Pull the whole project "Final".
+* Connect your computer to a FPGA board and specify in Quartus.
+* Compile the project in Quartus and program the device.
+* Connect your FPGA board to a monitor via VGA.
+* Compile and run the C code in Eclipse.
 * You are ready to play!
 
 
