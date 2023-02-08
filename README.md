@@ -2,7 +2,7 @@
 
 For UIUC ECE 385 Fall 2022
 
-This repository is only for reference and I shall not be held responsible for any academic integrity violations. 
+This repository is only for reference, and I shall not be held responsible for any academic integrity violations. 
 
 All works are accomplished together with my partner Gong Rui. 
 
@@ -12,7 +12,7 @@ All works are accomplished together with my partner Gong Rui.
 
 ![Image](https://github.com/Jiamingxu20/ECE-385/blob/master/Final/ECE385-HelperTools-master/PNG%20To%20Hex/On-Chip%20Memory/sprite_originals/gamebegin0.png)
 
-We re-create the classic tank battle game, Batlle City, into a PvP version on FPGA board, in which two players are able to control their each tank to battle via keyboard. 
+We re-create the classic tank battle game, Battle City, into a PvP version on FPGA board, in which two players are able to control each tank to battle via keyboard. 
 
 
 
@@ -35,17 +35,17 @@ We re-create the classic tank battle game, Batlle City, into a PvP version on FP
 
 ### Rules 
 
-* There will be two players, and each player could control the his/her tank via the keyboard.
+* There will be two players, and each player could control his/her tank via the keyboard.
 
 * The Player who first destroy the headquarter of the other player will win the game. 
 
 * Each tank can shoot a cannonball and be aware of the reloading time. 
 
-* If hit by the cannonball or collided with the other tank, the tank will reset to its inital position. 
+* If hit by the cannonball or collided with the other tank, the tank will reset to its initial position. 
 
-* Players can pause the game anytime by pressing "ESC" on the keyborad.
+* Players can pause the game anytime by pressing "ESC" on the keyboard.
 
-* Players can also restart the game by pressing "ENTER" on the keyborad after one round of game.
+* Players can also restart the game by pressing "ENTER" on the keyboard after one round of game.
 
 * There are 4 kinds of function blocks and each of them will serve different functions. 
 
