@@ -43,6 +43,10 @@ We re-create the classic tank battle game, Batlle City, into a PvP version on FP
 
 * If hit by the cannonball or collided with the other tank, the tank will reset to its inital position. 
 
+* Players can pause the game anytime by pressing "ESC" on the keyborad.
+
+* Players can also restart the game by pressing "ENTER" on the keyborad after one round of game.
+
 * There are 4 kinds of function blocks and each of them will serve different functions. 
 
 1. Iron : 
@@ -68,4 +72,4 @@ We re-create the classic tank battle game, Batlle City, into a PvP version on FP
 
     Will hide the tank. 
 
-
+* Enjoy the Game!
