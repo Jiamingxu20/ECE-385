@@ -74,4 +74,6 @@ We re-create the classic tank battle game, Batlle City, into a PvP version on FP
 
 * Enjoy the Game!
 
-## We left an Easter egg in the game; see if you can find it :)
+### We left an Easter egg in the game; see if you can find it :)
+
+
